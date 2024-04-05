@@ -13,12 +13,6 @@ application = Flask(__name__)
 
 '''
 # Initialize Boto3 S3 client
-s3_client = boto3.client(
-    's3',
-    aws_access_key_id=os.getenv('AKIAQFX7EOOG5PE3GORJ'),
-    aws_secret_access_key=os.getenv('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'),
-    region_name='eu-west-2'
-)
 
 bucket_name = 'oritsejolomi-fyp'
 
