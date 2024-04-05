@@ -4,4 +4,4 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello_world():
-    return render_template('query.html')
+    return 'heyyyyeyeugfyeqgygewyfugewfyvbewyvyewvecbeqbvuyeqbvuybeyuvbeyubvueybvuebvyubey'
