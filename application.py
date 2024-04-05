@@ -4,7 +4,6 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 import pickle
 import boto3
-import os
 from io import BytesIO
 from torch import nn
 
